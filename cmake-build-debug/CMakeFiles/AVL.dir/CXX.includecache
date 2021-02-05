@@ -1,0 +1,30 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/apple/CLionProjects/AVL/AVL.cpp
+iostream
+-
+
+/Users/apple/CLionProjects/AVL/HashTable.cpp
+algorithm
+-
+fstream
+-
+iostream
+-
+AVL.cpp
+/Users/apple/CLionProjects/AVL/AVL.cpp
+
+/Users/apple/CLionProjects/AVL/main.cpp
+iostream
+-
+HashTable.cpp
+/Users/apple/CLionProjects/AVL/HashTable.cpp
+AVL.cpp
+/Users/apple/CLionProjects/AVL/AVL.cpp
+
